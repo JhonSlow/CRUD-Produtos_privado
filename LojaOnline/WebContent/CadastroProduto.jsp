@@ -29,26 +29,26 @@
                 	</td>
                 	
                 	<tr><td><h5>Nome:</h5>
-                		<input type="text" name="nome"></td>
+                		<input type="text" name="nome" value="Nome"></td>
                 	</tr>
            		   
            		 
                		 <tr><td><h5>Descricao:</h5>
-               		 <input type="text" name="desc" /></td>
+               		 <input type="text" name="desc" value="Produto"/></td>
                		 </tr>
            			 
             	
                 	<tr><td><h5>Preco:</h5>
-                	<input type="text" name="preco"></td>
+                	<input type="text" name="preco" value="0"></td>
                 	</tr>
            		
             	
                 	<tr><td><h5>Imagem:</h5>
-                	<input type="file"  class="custom-file" name="imagem"></td>
+                	<input type="file"  class="custom-file" name="imagem" value="">	</td>
                 	</tr>      				
 
           	</table><br>
-          			<button class="btn btn-primary" name="botao" type="submit" value="Adicionar" >Adicionar></button>
+          			<button class="btn btn-primary" name="botao" type="submit" value="Adicionar" >Adicionar</button>
                 	<button class="btn btn-primary" name="botao" type="reset" value="Limpar">Limpar</button>
        	</form>
 	</div>
